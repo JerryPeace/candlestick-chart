@@ -3,7 +3,7 @@
 ## Overview
 Search IBM of the top 500 candle stick and pull up to date data from Alphavantage API to display in an interactive react candlestick chart.
 <br />
-<p align="center"><a href="https://react-candlestickchart.netlify.com">Demo</a></p>
+<p align="left"><a href="https://jerrypeace.github.io/candlestick-chart/#/candleStickChart">App Demo</a></p>
 
 ## Built With
 
@@ -11,12 +11,14 @@ Search IBM of the top 500 candle stick and pull up to date data from Alphavantag
 * [ApexCharts](https://apexcharts.com/)
 * [MaterialUI](https://material-ui.com/)
 
+
 ## Data Source
 
 * [Alphavantage](https://www.alphavantage.co/documentation/) provider time series stock data APIs.
 
 
-### Development by local
+## Development by local
+ss
 pull whole app from github and access root directory of app
 
 #### Run Client server
