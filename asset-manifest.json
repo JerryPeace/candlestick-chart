@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/trading-app/static/css/main.58462fbc.css",
+    "main.js": "/trading-app/static/js/main.36ac1ef5.js",
+    "index.html": "/trading-app/index.html",
+    "main.58462fbc.css.map": "/trading-app/static/css/main.58462fbc.css.map",
+    "main.36ac1ef5.js.map": "/trading-app/static/js/main.36ac1ef5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58462fbc.css",
+    "static/js/main.36ac1ef5.js"
+  ]
+}
