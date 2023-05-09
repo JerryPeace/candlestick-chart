@@ -1,11 +1,11 @@
 import { useCallback, useEffect, useState } from 'react';
-import { useQuery } from 'react-query';
 import Chart from 'react-apexcharts';
 import { ApexOptions } from 'apexcharts';
 import { Box } from '@mui/material';
 import ToolBar from 'components/ToolBar';
 import Loading from 'components/Loading';
-import getCandleStick, { TCandleStick } from 'services/api/getCandleStick';
+import useCandleStick from 'hooks/useCandleStick';
+import { TCandleStick } from 'services/api/getCandleStick';
 
 const chartOptions: ApexOptions = {
   chart: {
@@ -30,7 +30,7 @@ const chartOptions: ApexOptions = {
 };
 
 const CandlestickChart = (): JSX.Element => {
-  const { isLoading, data } = useQuery('candlestick', getCandleStick);
+  const { isLoading, data } = useCandleStick();
   const [chartData, setChartData] = useState<TCandleStick[]>([]);
   const [candlesCount, setCandlesCount] = useState(500);
 

@@ -40,16 +40,15 @@ open http://localhost:3000/#/candleStickChart
 ###  Unit Test
 ```
 yarn test
+yarn test --coverage
 ```
 2. `react-testing-library` - Please use [React Testing Library](https://testing-library.com/docs/react-testing-library/intro) and it's a react official recommendation solution for testing React components and hooks function..
-
 
 ###  Pre-commit Hooks
 We set up two git pre-commit hooks:
 
 1. `prettier` - this will check the js file and formate it automatically.
 2. `@typescript-eslint` - this will check the ts file if there have any linter problems.
-
 
 ### Front-end File Structure
 ```
