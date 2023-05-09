@@ -20,7 +20,7 @@ export default async function getCandleStick(): Promise<TCandleStick[]> {
   return normalizedChartData(response) || [];
 }
 
-const normalizedChartData = (data: TResponse): TCandleStick[] => {
+export const normalizedChartData = (data: TResponse): TCandleStick[] => {
   const timeSeries = data.data['Time Series (Daily)'];
   return Object.keys(timeSeries).map((timestamp) => {
     const item = timeSeries[timestamp];

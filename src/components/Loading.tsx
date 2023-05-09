@@ -4,6 +4,7 @@ const Loading = (props: CircularProgressProps): JSX.Element => {
   const { sx, ...rest } = props;
   return (
     <CircularProgress
+      data-testid={'circle-loading'}
       sx={{
         position: 'absolute',
         top: '50%',
