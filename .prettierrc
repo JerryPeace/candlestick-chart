@@ -1,6 +1,8 @@
 {
+  "tabWidth": 2,
   "printWidth": 100,
   "singleQuote": true,
+  "endOfLine": "lf",
   "overrides": [
     {
       "files": ["**/*.json"],
@@ -8,8 +10,5 @@
         "singleQuote": false
       }
     }
-  ],
-  "trailingComma": "es5",
-  "tabWidth": 2,
-  "semi": true
+  ]
 }

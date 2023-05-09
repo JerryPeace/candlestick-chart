@@ -7,7 +7,7 @@ const Loading = (props: CircularProgressProps): JSX.Element => {
       sx={{
         position: 'absolute',
         top: '50%',
-        left: '54%',
+        left: '50%',
         marginTop: '-12px',
         marginLeft: '-12px',
         ...sx,

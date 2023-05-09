@@ -1,2 +1,1 @@
-import * as api from './api';
-export default api;
+export { default as getCandleStick } from './getCandleStick';
