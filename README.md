@@ -3,7 +3,7 @@
 ## Overview
 Search IBM of the top 500 candle stick and pull up to date data from Alphavantage API to display in an interactive react candlestick chart.
 <br />
-<p align="left"><a href="https://jerrypeace.github.io/candlestick-chart/#/candleStickChart">App Demo Site</a></p>
+<p align="left"><a href="https://jerrypeace.github.io/candlestick-chart/#/candleStickChart" target="_blank">App Demo Site</a></p>
 
 ## Built With
 
