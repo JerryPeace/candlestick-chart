@@ -21,7 +21,7 @@ Search IBM of the top 500 candle stick and pull up to date data from Alphavantag
 ss
 pull whole app from github and access root directory of app
 
-#### Run Client server
+### Run Client server
 
 ```
 yarn
@@ -29,7 +29,7 @@ yarn start
 open http://localhost:3000/#/candleStickChart
 ```
 
-#### Build and run Docker image
+### Build and run Docker image
 
 ```
 docker build -t candlestickchart .
@@ -42,13 +42,15 @@ open http://localhost:3000/#/candleStickChart
 yarn test
 yarn test --coverage
 ```
-2. `react-testing-library` - Please use [React Testing Library](https://testing-library.com/docs/react-testing-library/intro) and it's a react official recommendation solution for testing React components and hooks function..
+2. `react-testing-library` - Please use [React Testing Library](https://testing-library.com/docs/react-testing-library/intro) and it's a react official recommendation solution for testing React components and hooks function.
+
 
 ###  Pre-commit Hooks
 We set up two git pre-commit hooks:
 
 1. `prettier` - this will check the js file and formate it automatically.
 2. `@typescript-eslint` - this will check the ts file if there have any linter problems.
+
 
 ### Front-end File Structure
 ```
