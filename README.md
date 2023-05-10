@@ -18,7 +18,7 @@ Search IBM of the top 500 candle stick and pull up to date data from Alphavantag
 
 
 ## Development by local
-ss
+
 pull whole app from github and access root directory of app
 
 ### Run Client server
@@ -42,7 +42,7 @@ open http://localhost:3000/#/candleStickChart
 yarn test
 yarn test --coverage
 ```
-2. `react-testing-library` - Please use [React Testing Library](https://testing-library.com/docs/react-testing-library/intro) and it's a react official recommendation solution for testing React components and hooks function.
+1. `react-testing-library` - Please use [React Testing Library](https://testing-library.com/docs/react-testing-library/intro) and it's a react official recommendation solution for testing React components and hooks function.
 
 
 ###  Pre-commit Hooks
