@@ -17,7 +17,7 @@ export default async function getCandleStick(): Promise<TCandleStick[]> {
   } catch (error) {
     throw new Error('Unable to fetch data');
   }
-  return normalizedChartData(response) || [];
+  return normalizedChartData(response);
 }
 
 export const normalizedChartData = (data: TResponse): TCandleStick[] => {

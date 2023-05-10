@@ -47,9 +47,7 @@ const CandlestickChart = (): JSX.Element => {
   }, [candlesCount, data, setChartData]);
 
   useEffect(() => {
-    if (data) {
-      setChartData(data.slice(0, 500));
-    }
+    data && setChartData(data.slice(0, 500));
   }, [data, setChartData]);
 
   return (
