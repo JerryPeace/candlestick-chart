@@ -18,7 +18,6 @@ export default async function getCandleStick(): Promise<IData> {
     response = await axios.get(apiUrl);
     const end = performance.now();
     console.log(`API query time: ${end - start} ms`);
-    response = await axios.get(apiUrl);
   } catch (error) {
     throw new Error('Unable to fetch data');
   }
