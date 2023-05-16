@@ -8,8 +8,7 @@ Search IBM of the top 500 candle stick and pull up to date data from Alphavantag
 ## Built With
 
 * [Create React App](https://github.com/facebook/create-react-app)
-* [ApexCharts](https://apexcharts.com/)
-* [MaterialUI](https://material-ui.com/)
+* [CanvasRenderingContext2D of Canvas API](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D)
 
 
 ## Data Source
