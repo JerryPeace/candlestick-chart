@@ -26,20 +26,16 @@ const CandlestickChart = (): JSX.Element => {
   const [candlesCount, setCandlesCount] = useState(500);
 
   const loadMoreCandles = useCallback(() => {
-    const newCandlesCount = candlesCount + 100;
-    data && setChartData(filterDataFunc(data, newCandlesCount));
-    setCandlesCount(newCandlesCount);
-  }, [candlesCount, data, setChartData]);
+    setCandlesCount((prevCount) => prevCount + 100);
+  }, []);
 
   const reduceCandles = useCallback(() => {
-    const newCandlesCount = Math.max(candlesCount - 100, 100);
-    data && setChartData(filterDataFunc(data, newCandlesCount));
-    setCandlesCount(newCandlesCount);
-  }, [candlesCount, data, setChartData]);
+    setCandlesCount((prevCount) => Math.max(prevCount - 100, 100));
+  }, []);
 
   useEffect(() => {
-    data && setChartData(filterDataFunc(data, 500));
-  }, [data]);
+    data && setChartData(filterDataFunc(data, candlesCount));
+  }, [candlesCount, data]);
 
   return (
     <Box display="flex" height={'100vh'}>
